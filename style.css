@@ -9,5 +9,25 @@ body{
 ul{
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-position: inside;
+}
+li{
+    border-style: solid;
+    border-width: 5px;
+    background-color: brown;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+.lista{
+    background-color: rgb(165, 87, 42);
+    width: 400px;
+}
+.img{
+    list-style-image: url('gif.gif');
 }

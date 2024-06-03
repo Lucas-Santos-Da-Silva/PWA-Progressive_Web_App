@@ -1,14 +1,12 @@
 // Nome do cache (controle de versão)
-const cachePWA = 'cache-v1';
+const cachePWA = 'cache-v1'
 // Arquivos a serem armazenados em cache
-// Todos os arquivos devem ser adicionados ao vetor (exceto o manifesto)
+// Todos os arquivos devem ser adicionados ao vetor(exceto o manifesto)
 const urlsToCache = [
   '/',
   '/index.html',  
   '/hal192.png',
-  '/hal512.png',
-  '/style.css',
-  '/gif.gif'
+  '/hal512.png'
 ]
 
 // Instalando o Service Worker e armazenando os arquivos no cache
